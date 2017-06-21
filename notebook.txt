@@ -1,0 +1,14 @@
+dict
+1、d={'key1':value,'key2':value2},d['key3']=values3,其中key必须是不可变量，因为要对key做harsh运算。
+2、d.pop('key')
+3、del d['key']
+4、d.clear()
+5、d.get('key2',-1)
+6、‘key1’ in d
+set
+1、s=set{1,2,3},s={[1,2,3]}
+2、s.add(key),key必须是不可变量，要能hash
+3、s.remove(key)
+4、s1=s2&s3,s1=s2|s3
+5、
+
