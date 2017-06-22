@@ -21,6 +21,20 @@ def f2(a, b, c=0, *, d, **kw):
 	
 #print(f1(1,2,e=3,d='a',f='b'))
 #print(f2(1, 2, e=88, d=99, ext=None))
-n=1
-if n=1:
-	print('Y')
+
+def fib(max):
+	a,b,n=0,1,0
+	while n<max:
+		yield b
+		a,b=b,a+b
+		n=n+1
+	return 'done'
+
+
+n = 0
+for t in triangles():
+    print(t)
+    n = n + 1
+    if n == 10:
+        break
+	
